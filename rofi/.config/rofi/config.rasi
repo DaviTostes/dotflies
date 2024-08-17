@@ -1,0 +1,14 @@
+configuration{
+  modi: "window,run,drun,filebrowser";
+  icon-theme: "Oranchelo";
+  show-icons: true;
+  terminal: "bash";
+  drun-display-format: "{icon} {name}";
+  location: 0;
+  disable-history: false;
+  hide-scrollbar: true;
+  sidebar-mode: true;
+}
+
+
+@theme "catppuccin-mocha"
