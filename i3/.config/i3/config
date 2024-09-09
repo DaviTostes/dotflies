@@ -13,7 +13,7 @@ set $mod Mod4
 
 exec_always --no-startup-id killall polybar
 exec_always --no-startup-id bash $HOME/.config/polybar/launch_polybar.sh
-exec_always --no-startup-id feh --bg-scale $HOME/Pictures/wp12329536.png
+exec_always --no-startup-id feh --bg-scale $HOME/Pictures/wallpaper.jpg
 
 bindsym $mod+space exec rofi -show window
 bindsym $mod+y exec yazi
@@ -33,7 +33,7 @@ client.focused_inactive #1e1e2e #1e1e2e #000 #1e1e2e #1e1e2e
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:Agave Nerd Font 12
+font pango:Agave Nerd Font 10
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -80,7 +80,7 @@ bindsym $mod+d exec --no-startup-id dmenu_run
 # change focus
 bindsym $mod+j focus down
 bindsym $mod+k focus up
-bindsym $mod+l focus right
+bindsym $mod+Shift+l focus right
 bindsym $mod+h focus left
 
 # alternatively, you can use the cursor keys:
@@ -92,7 +92,7 @@ bindsym $mod+Right focus right
 # move focused window
 bindsym $mod+Shift+j move left
 bindsym $mod+Shift+k move down
-bindsym $mod+Shift+l move up
+bindsym $mod+l move up
 bindsym $mod+Shift+ccedilla move right
 
 # alternatively, you can use the cursor keys:

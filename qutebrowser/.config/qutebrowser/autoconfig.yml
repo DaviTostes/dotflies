@@ -11,9 +11,23 @@ settings:
       normal:
         J: tab-prev
         K: tab-next
+  colors.completion.item.selected.border.bottom:
+    global: '#1e1e2e'
+  colors.completion.item.selected.border.top:
+    global: '#1e1e2e'
+  colors.hints.bg:
+    global: '#1e1e2e'
+  colors.hints.fg:
+    global: white
+  colors.hints.match.fg:
+    global: '#7eb1dd'
+  colors.keyhint.suffix.fg:
+    global: '#1e1e2e'
   colors.statusbar.command.bg:
     global: '#1e1e2e'
   colors.statusbar.normal.bg:
+    global: '#1e1e2e'
+  colors.statusbar.url.warn.fg:
     global: '#1e1e2e'
   colors.tabs.bar.bg:
     global: '#1e1e2e'
@@ -31,6 +45,10 @@ settings:
     global: '#1e1e2e'
   colors.tabs.selected.odd.fg:
     global: '#7eb1dd'
+  colors.webpage.darkmode.enabled:
+    global: false
+  colors.webpage.preferred_color_scheme:
+    global: dark
   content.blocking.enabled:
     global: false
   content.notifications.enabled:

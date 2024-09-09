@@ -39,6 +39,11 @@ style_user = "fg:color_lang"
 # style_root = "bg:color_user fg:color_fg0"
 format = '[\[$user\]]($style)'
 
+[os]
+format = "[($name)]($style)"
+style = "color_lang"
+disabled = false
+
 [directory]
 style = "fg:color_fg0"
 format = "[ $symbol $path ]($style)[$read_only]($color_git)"
