@@ -20,7 +20,7 @@ settings:
   colors.completion.even.bg:
     global: '#1e1e2e'
   colors.completion.item.selected.bg:
-    global: '#7eb1dd'
+    global: '#ff0000'
   colors.completion.item.selected.border.bottom:
     global: '#1e1e2e'
   colors.completion.item.selected.border.top:
