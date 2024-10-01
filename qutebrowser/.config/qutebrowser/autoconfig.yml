@@ -11,9 +11,23 @@ settings:
       normal:
         J: tab-prev
         K: tab-next
+  colors.completion.category.bg:
+    global: '#1e1e2e'
+  colors.completion.category.border.bottom:
+    global: '#1e1e2e'
+  colors.completion.category.border.top:
+    global: '#1e1e2e'
+  colors.completion.even.bg:
+    global: '#1e1e2e'
+  colors.completion.item.selected.bg:
+    global: '#7eb1dd'
   colors.completion.item.selected.border.bottom:
     global: '#1e1e2e'
   colors.completion.item.selected.border.top:
+    global: '#1e1e2e'
+  colors.completion.item.selected.fg:
+    global: white
+  colors.completion.odd.bg:
     global: '#1e1e2e'
   colors.hints.bg:
     global: '#1e1e2e'
@@ -21,8 +35,10 @@ settings:
     global: white
   colors.hints.match.fg:
     global: '#7eb1dd'
-  colors.keyhint.suffix.fg:
+  colors.keyhint.bg:
     global: '#1e1e2e'
+  colors.keyhint.suffix.fg:
+    global: '#ff0000'
   colors.statusbar.command.bg:
     global: '#1e1e2e'
   colors.statusbar.normal.bg:
@@ -55,3 +71,11 @@ settings:
     https://www.youtube.com: true
   content.register_protocol_handler:
     https://mail.google.com?extsrc=mailto&url=%25s: true
+  hints.border:
+    global: '1px solid #ff0000'
+  hints.padding:
+    global:
+      bottom: 3
+      left: 5
+      right: 5
+      top: 3

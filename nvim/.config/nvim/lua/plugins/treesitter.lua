@@ -4,7 +4,7 @@ return {
   config = function()
     local config = require("nvim-treesitter.configs")
     config.setup({
-      ensure_installed = { "lua", "javascript", "html", "css", "c_sharp", "rust", "dockerfile", "php", "go", "gotmpl", "nix" },
+      ensure_installed = { "lua", "javascript", "html", "css", "c_sharp", "rust", "dockerfile", "php", "go", "gotmpl", "nix"},
       auto_install = true,
       highlight = { enable = true },
       indent = { enable = true },
